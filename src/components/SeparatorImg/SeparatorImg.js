@@ -1,10 +1,23 @@
 import React from 'react';
+import {
+    ImageContainer,
+    BackgroundImage,
+    ColorOverlay
+} from './style'
 
-const SeparatorImg = () => {
+
+const SeparatorImg = ({img}) => {
+
     return (
-        <div>
+        <ImageContainer >
             
-        </div>
+            <BackgroundImage picture={img} alt='Separator Image'>
+
+                <ColorOverlay />
+
+            </BackgroundImage>
+
+        </ImageContainer>
     );
 };
 
