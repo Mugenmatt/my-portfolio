@@ -1,44 +1,40 @@
 import React from 'react';
-import styled from 'styled-components';
+import {
+    FixedLinksContainer,
+    LineLinks,
+    LinksAnchor
+} from './style'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
-const FixedLinksContainer = styled.div`
-    position: fixed;
-    left: 0;
-    bottom: 100px;
-    display: flex;
-    align-items: center;
-`;
-const LineLinks = styled.hr`
-    width: 4em;
-    border: 2px solid #58E1C4;
-`;
-const BoxLinks = styled.div``;
-
-const linksStyles = {
-    color:"#58E1C4",
-    fontSize:'2em',
-    marginLeft:'0.7em',
-    ':hover': {
-        color: '#fff'
-    },
-    ':focus': {
-        color: '#fff'
-    }
-}
-
 const FixedLinks = () => {
     return (
-        <FixedLinksContainer>
+        <FixedLinksContainer >
             
-            <LineLinks />
+            <LineLinks 
+                transition={{delay:2.5, duration: 1}}
+                animate={{transform: ['translateX(-350px)', 'translateX(0px)']}}
+            />
 
-            <BoxLinks>
-                <FaLinkedin style={ linksStyles } />
-                <FaGithub style={ linksStyles } />
-                <FiMail style={ linksStyles } />
-            </BoxLinks>
+            <LinksAnchor 
+                target='_blank' 
+                href='https://www.linkedin.com/in/matias-godoy/'
+                transition={{delay:2.5, duration: 2}}
+                animate={{opacity: [0, 0.5, 1], transform: ['translateX(110px) rotate(0)', 'translateX(0px) rotate(-360deg)']}}
+                ><FaLinkedin /></LinksAnchor>
+            <LinksAnchor 
+                target='_blank' 
+                href='https://github.com/Mugenmatt'
+                transition={{delay:2.5, duration: 2}}
+                animate={{opacity: [0, 0.5, 1], transform: ['translateX(230px) rotate(0)', 'translateX(0px) rotate(-360deg)']}}
+                ><FaGithub /></LinksAnchor>
+            <LinksAnchor 
+                target='_blank' 
+                rel="noopener noreferrer" 
+                href='mailto:matigodoy93@hotmail.com'
+                transition={{delay:2.5, duration: 2}}
+                animate={{opacity: [0, 0.5, 1], transform: ['translateX(350px) rotate(0)', 'translateX(0px) rotate(-360deg)']}}
+                ><FiMail /></LinksAnchor>
 
         </FixedLinksContainer>
     );
