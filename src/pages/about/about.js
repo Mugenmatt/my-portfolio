@@ -20,7 +20,6 @@ const About = () => {
     const textElipseAnimation = useAnimation();
 
     useEffect(() => {
-        console.log(inView, 'ABOUT');
 
         // FULL ABOUT PAGE
         if(inView) {

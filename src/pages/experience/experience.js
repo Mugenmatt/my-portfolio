@@ -36,7 +36,6 @@ const Experience = () => {
     const jokeAnimation2 = useAnimation();
 
     useEffect(() => {
-        console.log(inView, 'EXPERIENCE');
 
         if(inView) {
             experienceAnimation.start({

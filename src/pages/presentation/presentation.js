@@ -29,7 +29,6 @@ const Presentation = () => {
     const animation = useAnimation();
 
     useEffect(() => {
-        console.log(inView, 'PRESENTATION');
 
         if(inView) {
             animation.start({

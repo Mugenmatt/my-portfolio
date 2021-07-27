@@ -20,7 +20,6 @@ const Education = () => {
     const cardAnimation2 = useAnimation();
 
     useEffect(() => {
-        console.log(inView, 'EDUCATION');
 
         if(inView) {
             educationAnimation.start({

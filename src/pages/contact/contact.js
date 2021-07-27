@@ -20,7 +20,6 @@ const Contact = () => {
     const goBackAnimation = useAnimation();
 
     useEffect(() => {
-        console.log(inView, 'CONTACT SECTION');
 
         if(inView) {
 
