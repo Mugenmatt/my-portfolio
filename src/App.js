@@ -1,9 +1,20 @@
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { FullApp } from './assets/css/appStyle';
+import FullPortfolio from './components/fullPortfolio/FullPortfolio';
 
 function App() {
+
   return (
-    <div className="App">
-      
-    </div>
+    <FullApp>
+
+      <BrowserRouter>
+
+        <FullPortfolio />
+
+      </BrowserRouter>
+
+    </FullApp>
   );
 }
 
