@@ -6,7 +6,7 @@ import {
     ArchiveGit,
     Repository
 } from './style'
-import WorkProject from '../../components/WorkProject/WorkProject';
+import WorkProject from '../../components/workProject/WorkProject';
 import alkemyChallenge from '../../assets/img/projects/alkemyChallenge.svg';
 import rewardStore from '../../assets/img/projects/rewardStore.svg';
 import hotelProject from '../../assets/img/projects/hotelProject.svg';

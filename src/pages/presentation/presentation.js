@@ -11,8 +11,8 @@ import {
     ColorImg,
     MyFace
 } from './style'
-import Header from '../../components/Header/Header'
-import SeparatorText from '../../components/SeparatorText/SeparatorText';
+import Header from '../../components/header/Header'
+import SeparatorText from '../../components/separatorText/SeparatorText';
 import {
     hiVariants,
     nameVariants,

@@ -17,7 +17,7 @@ import {
     ImgJoke,
     ImgJokeBox
 } from './style'
-import PageTitle from '../../components/PageTitle/PageTitle';
+import PageTitle from '../../components/pageTitle/PageTitle';
 import alkemy from '../../assets/img/educationImg/alkemy.svg'
 import timmy1 from '../../assets/img/jokes/timmy1.svg'
 import timmy2 from '../../assets/img/jokes/timmy2.svg'
