@@ -6,8 +6,8 @@ import {
     Elipse,
     MyAcronym
 } from './style'
-import PageTitle from '../../components/pageTitle/PageTitle';
-import ListTechSkills from '../../components/listTechSkills/ListTechSkills';
+import PageTitle from '../../components/PageTitle/PageTitle';
+import ListTechSkills from '../../components/ListTechSkills/ListTechSkills';
 import { useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 

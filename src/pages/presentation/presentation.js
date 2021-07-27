@@ -12,7 +12,7 @@ import {
     MyFace
 } from './style'
 import Header from '../../components/Header/Header'
-import SeparatorText from '../../components/separatorText/SeparatorText';
+import SeparatorText from '../../components/SeparatorText/SeparatorText';
 import {
     hiVariants,
     nameVariants,

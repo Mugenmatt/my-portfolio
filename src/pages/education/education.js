@@ -4,8 +4,8 @@ import {
     TitleCardsContainer,
     CardsContainer
 } from './style'
-import EducationCard from '../../components/educationCard/EducationCard';
-import PageTitle from '../../components/pageTitle/PageTitle';
+import EducationCard from '../../components/EducationCard/EducationCard';
+import PageTitle from '../../components/PageTitle/PageTitle';
 import acamica from '../../assets/img/educationImg/acamica.svg';
 import dh from '../../assets/img/educationImg/dh.svg';
 import comIt from '../../assets/img/educationImg/comIt.svg';
