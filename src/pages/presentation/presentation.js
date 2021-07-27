@@ -44,7 +44,7 @@ const Presentation = () => {
             })
         }
 
-    }, [inView])
+    }, [inView, animation])
 
     return (
         <PresentationPage id='presentation' ref={ref} animate={animation}>

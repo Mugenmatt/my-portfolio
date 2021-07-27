@@ -46,7 +46,7 @@ const Education = () => {
             })
         } 
 
-    }, [inView])
+    }, [inView, educationAnimation, cardAnimation1, cardAnimation2])
 
     return (
         <EducationPage id='education' animate={educationAnimation} ref={ref} >

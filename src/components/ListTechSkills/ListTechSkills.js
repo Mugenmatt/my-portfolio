@@ -25,7 +25,7 @@ const ListTechSkills = () => {
             }))
         }
         
-    }, [inView])
+    }, [inView, listOneAnimation])
 
     return (
         <ListsContainer ref={ref}>

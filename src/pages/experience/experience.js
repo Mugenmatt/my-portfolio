@@ -73,7 +73,15 @@ const Experience = () => {
             })
         }
 
-    }, [inView])
+    }, [
+            inView,experienceAnimation,
+            opacityAnimation,
+            infoAnimation,
+            imgAnimation,
+            jokeAnimation1,
+            jokeAnimation2
+        ]
+    )
 
     return (
         <ExperiencePage id='experience' animate={experienceAnimation} ref={ref}>

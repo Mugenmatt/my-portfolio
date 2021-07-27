@@ -25,7 +25,7 @@ const HobbyTextSeparator = () => {
             transition: {delay: i * 0.3, duration: 4}
         }))
 
-    }, [inView])
+    }, [inView, globalTextAnimation])
 
     return (
         <HobbyContainer ref={ref}>

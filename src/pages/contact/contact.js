@@ -46,7 +46,7 @@ const Contact = () => {
             })
         }
 
-    }, [inView])
+    }, [inView, imgAnimation, textAnimation, goBackAnimation])
 
     return (
         <ContactPage id='contact'>

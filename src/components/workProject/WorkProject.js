@@ -30,7 +30,7 @@ const WorkProject = ({backColor, img, altText, linkGit, linkWeb, title, descript
             }))
         }
 
-    }, [inView])
+    }, [inView, animationProject])
 
     return (
         <ProjectContainer backColor={backColor} ref={ref}>

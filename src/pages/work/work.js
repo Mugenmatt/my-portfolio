@@ -35,7 +35,7 @@ const Work = () => {
             transition: {delay: 1.5, duration: 3}
         })
 
-    }, [inView])
+    }, [inView, textAnimation, linkAnimation])
 
     return (
         <WorkPage id='work'>

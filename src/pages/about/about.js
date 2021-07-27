@@ -60,7 +60,14 @@ const About = () => {
             }
 
 
-    }, [inView])
+    }, [
+        inView,
+        aboutAnimation,
+        elipseAnimation,
+        descriptionAnimation,
+        textElipseAnimation
+        ]
+    )
 
     return (
         <AboutPage id='about' ref={ref} animate={aboutAnimation}>

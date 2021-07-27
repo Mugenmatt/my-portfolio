@@ -30,7 +30,7 @@ const PageTitle = ({number, text, lineWidth}) => {
             })
         }
 
-    }, [inView])
+    }, [inView, titleAnimation])
 
     return (
         <TitleContainer ref={ref} animate={titleAnimation}>
