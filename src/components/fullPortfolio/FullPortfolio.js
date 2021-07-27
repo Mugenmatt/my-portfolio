@@ -10,9 +10,9 @@ import Education from '../../pages/education/Education';
 import Expirience from '../../pages/experience/Experience';
 import Work from '../../pages/work/Work';
 import Contact from '../../pages/contact/Contact';
-import HobbyTextSeparator from '../hobbyTextSeparator/HobbyTextSeparator';
 import guitarra from '../../assets/img/me/guitarra.jpg'
 import SeparatorImg from '../separatorImage/SeparatorImg';
+import HobbyTextSeparator from '../hobbyTxtSeparator/HobbyTextSeparator';
 
 const FullPortfolio = () => {
 
@@ -29,7 +29,7 @@ const FullPortfolio = () => {
 
                 <Education />
 
-                <SeparatorImg />
+                <SeparatorImg img={guitarra} />
 
                 <Expirience />
 
