@@ -47,7 +47,7 @@ const Header = () => {
 
                 <ResumeAnchor
                     target='_blank' 
-                    href='https://drive.google.com/file/d/1KqpPtNVCYqk8a56aXutRRWu_bVNiKWQk/view?usp=sharing'
+                    href='https://drive.google.com/file/d/1DdiTg5LP32wsWCfQbXyWZVY6zZ-PjHY0/view?usp=sharing'
                     transition={{type: 'spring', delay:0.7, duration: 2}}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
