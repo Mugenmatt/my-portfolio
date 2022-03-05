@@ -2,12 +2,16 @@ import styled from "styled-components";
 import { motion } from 'framer-motion';
 
 export const ProjectContainer = styled.div`
-    height: 100vh;
     width: 100%;
+    height: 90%;
     background-color: ${(props => props.backColor ? '#0A192F' : '#112240')};
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 30px;
+    @media (max-width: 1280px) and (max-height: 720px) {
+        height: 95%;
+    }
 `;
 
 export const PaddingContent = styled.div`
@@ -76,5 +80,8 @@ export const LinksAnchor = styled.a`
     // 2560 x 1440
     @media (min-width: 2560px) and (min-height: 1440px) {
         font-size: 4em;
+    }
+    @media (max-width: 1280px) and (max-height: 720px) {
+        font-size: 2em;
     }
 `;

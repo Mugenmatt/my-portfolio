@@ -25,6 +25,10 @@ export const ContainerChild = styled(motion.div)`
     width: 80%;
     height: 90%;
     
+    // NOTEBOOK    
+    @media (max-width: 1280px) and (max-height: 720px) {
+        height: 95%;
+    }
     // SUFRACE DUO    
     @media (max-width: 540px) and (max-height: 720px) {
         height: 80vh;
@@ -62,6 +66,9 @@ export const Elipse = styled(motion.div)`
         right: -7%;
         box-shadow: -10px 3px 6px rgba(0, 0, 0, 0.25);
     }
+    @media (max-width: 1280px) and (max-height: 720px) {
+        right: -8%;
+    }  
 `;
 
 export const MyAcronym = styled(motion.p)`

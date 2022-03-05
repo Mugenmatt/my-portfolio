@@ -18,7 +18,10 @@ export const Title = styled(motion.p)`
     @media (min-width: 2560px) and (min-height: 1440px) {
         font-size: 3em;
     }
-    
+    // NOTEBOOK    
+    @media (max-width: 1280px) and (max-height: 720px) {
+        font-size: 1.3em;
+    }
     // SUFACE DUO
     @media (max-width: 540px) and (max-height: 720px) {
         font-size: 1.5em;

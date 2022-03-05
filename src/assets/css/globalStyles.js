@@ -13,12 +13,14 @@ const GlobalStyles = createGlobalStyle`
   html {
     scrollbar-width: none; 
     -ms-overflow-style: none;
+    width: 100vw;
+    height: 100vh;
     background-color: #0A192F;
   }
 
   html::-webkit-scrollbar {
       width: 0px; 
-}
+  }
 
 `;
 

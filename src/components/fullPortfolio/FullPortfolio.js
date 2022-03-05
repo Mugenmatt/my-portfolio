@@ -1,9 +1,9 @@
 import React from 'react'
-import Presentation from '../../pages/presentation/Presentation'
 import {
   FullPortfolioContainer,
   FlexContainer
 } from './style'
+import Presentation from '../../pages/presentation/Presentation'
 import FixedLinks from '../fixedLinks/FixedLinks';
 import About from '../../pages/about/About';
 import Education from '../../pages/education/Education';

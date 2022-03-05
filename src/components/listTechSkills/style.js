@@ -22,6 +22,9 @@ export const Item = styled(motion.li)`
     @media (min-width: 2560px) and (min-height: 1440px) {
         font-size: 2.5em;
     }
+    @media (max-width: 1280px) and (max-height: 720px) {
+        font-size: 1.4em;
+    }  
     // SUFACE DUO
     @media (max-width: 540px) and (max-height: 720px) {
         font-size: 1.2em;

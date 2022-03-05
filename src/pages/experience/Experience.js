@@ -11,16 +11,10 @@ import {
     AlkemyImgBox,
     AlkemyImg,
     LineBreaker,
-    Vignette,
-    Joke,
-    TextJoke,
-    ImgJoke,
-    ImgJokeBox
 } from './style'
 import PageTitle from '../../components/pageTitle/PageTitle';
 import alkemy from '../../assets/img/educationImg/alkemy.svg'
-import timmy1 from '../../assets/img/jokes/timmy1.svg'
-import timmy2 from '../../assets/img/jokes/timmy2.svg'
+import SH from '../../assets/img/educationImg/SH.svg'
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
@@ -93,12 +87,34 @@ const Experience = () => {
 
                 <AlkemyInfoBox animate={infoAnimation}>
 
+                    <AlkemyCardTitle>Front-End Developer in <Business>@Southern-Horizon</Business></AlkemyCardTitle>
+
+                    <AlkemyCardDescription>Work on the layout, logic and integration of projects</AlkemyCardDescription>
+
+                    <AlkemyLink target='_blank' href='https://www.linkedin.com/company/southern-horizon/mycompany/' ><BsBoxArrowUpRight /></AlkemyLink>
+
+                </AlkemyInfoBox>
+
+                <AlkemyImgBox animate={opacityAnimation}>
+                    <AlkemyImg src={SH} alt='Southern Horizon' animate={imgAnimation} />
+                </AlkemyImgBox>
+
+            </AlkemyCard>
+
+            <motion.div animate={opacityAnimation}>
+                <LineBreaker />
+            </motion.div>
+
+            <AlkemyCard>
+
+                <AlkemyInfoBox animate={infoAnimation}>
+
                     <AlkemyCardTitle>Acceleration in <Business>@Alkemy</Business></AlkemyCardTitle>
 
                     <AlkemyCardDescription>It was a simulation of how
     you would work in real life. I collaborated with a small team of students to create the front-end for a Colombian NGO called "Somos Más".</AlkemyCardDescription>
 
-                    <AlkemyLink target='_blank' href='https://www.alkemy.org/' ><BsBoxArrowUpRight /></AlkemyLink>
+                    <AlkemyLink target='_blank' href='https://www.linkedin.com/company/alkemy2020/' ><BsBoxArrowUpRight /></AlkemyLink>
 
                 </AlkemyInfoBox>
 
@@ -108,24 +124,7 @@ const Experience = () => {
 
             </AlkemyCard>
 
-            <motion.div animate={opacityAnimation}>
-                <LineBreaker />
-            </motion.div>
-            <Joke>
-                <Vignette animate={jokeAnimation1}>
-                    <TextJoke>And this is where i put my job experience</TextJoke>
-                    <ImgJokeBox>
-                        <ImgJoke src={timmy1} alt='>And this is where i put my job experience' />
-                    </ImgJokeBox>
-                </Vignette>
-
-                <Vignette animate={jokeAnimation2}>
-                    <TextJoke colorJoke weightJoke marginJoke>IF I HAD ONE!</TextJoke>
-                    <ImgJokeBox>
-                        <ImgJoke src={timmy2} alt='IF I HAD ONE!' />
-                    </ImgJokeBox>
-                </Vignette>
-            </Joke>
+            
 
             </ExperienceContainer>
 

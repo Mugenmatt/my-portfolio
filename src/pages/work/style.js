@@ -7,6 +7,10 @@ export const WorkPage = styled.div`
     width: 180vw;
     height: 100vh;
 
+    @media (max-width: 1280px) and (max-height: 720px) {
+        height: 95%;
+        width: 210vw;
+    }
     // IPAD
     @media (max-width: 768px) and (max-height: 1024px) {
         width: 570vw;

@@ -1,26 +1,21 @@
 import styled from "styled-components";
 
 export const FullApp = styled.div`
-  height: 203vh;
-  width: 100vw;
+  height: 177.8%;
+  width: 56.2%;
   transform: rotate(-90deg) translateX(-100vh);
   transform-origin: top left;
   overflow-y: scroll;
   overflow-x: hidden;
   position: absolute;
 
-  // LAPTOP
-  @media (max-width: 1600px) and (max-height: 900px) {
-    height: 177vh;
-  }
-  // IPAD
-  @media (max-width: 768px) and (max-height: 1024px) {
-    width: 134vw;
-    height: 75vh;
-  }
+  // NOTEBOOK
+  @media (max-width: 1280px) and (max-height: 720px) {
+    height: 177%;
+    width: 100%;
+  }  
   // GALAXY S5
-  @media (max-width: 360px) and (max-height: 640px) {
-    height: 56vh;
-    width: 180vw;
+  @media (max-width: 640px) and (max-height: 480px) {
+    height: 133%;
   }
 `;

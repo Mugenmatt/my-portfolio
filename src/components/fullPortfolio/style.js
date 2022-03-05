@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const FullPortfolioContainer = styled.div`
-  width: 600vw; // o 620vw con los separadores de 20 cada uno
+  width: 100vw; // o 620vw con los separadores de 20 cada uno
   display: flex;
   flex-direction: row;
   transform: rotate(90deg) translateY(-100vh);
@@ -29,6 +29,5 @@ export const FullPortfolioContainer = styled.div`
 
 export const FlexContainer = styled.div`
   height: 100vh;
-  width: 100%;
   display: flex;
 `;

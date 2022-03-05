@@ -23,7 +23,13 @@ export const ExperienceContainer = styled.div`
 background-color: #112240;
 padding: 9.5% 5% 5% 5%;
 width: 80%;
-height: 100%;
+height: 90%;
+border-radius: 30px;
+
+// NOTEBOOK    
+@media (max-width: 1280px) and (max-height: 720px) {
+    height: 95%;
+}
 `;
 
 export const AlkemyCard = styled.div`
@@ -48,6 +54,10 @@ margin-bottom: 5%;
 // 2560 x 1440
 @media (min-width: 2560px) and (min-height: 1440px) {
     font-size: 2.5em;
+}
+// 1280 x 720
+@media (min-width: 1280px) and (min-height: 720px) {
+    font-size: 1.2em;
 }
 // GALAXY S5
 @media (max-width: 360px) and (max-height: 640px) {

@@ -23,7 +23,7 @@ export const TextBox = styled(motion.div)`
     width: 50%;
 `;
 export const ColoredNumber = styled.p`
-    font-size: 8em;
+    font-size: 6em;
     font-weight: 700;
     color: #58E1C4;
     // 2560 x 1440
@@ -37,12 +37,17 @@ export const ColoredNumber = styled.p`
 `;
 
 export const TextWork = styled(motion.p)`
-    font-size: 8em;
+    font-size: 6em;
     font-weight: 700;
     color: #fff;
     // 2560 x 1440
     @media (min-width: 2560px) and (min-height: 1440px) {
         font-size: 10em;
+        margin-bottom: 3%;
+    }
+    // 1280 x 720
+    @media (max-width: 1280px) and (max-height: 720px) {
+        font-size: 4em;
         margin-bottom: 3%;
     }
     // SUFACE DUO

@@ -25,7 +25,13 @@ export const TitleCardsContainer = styled(motion.div)`
     background-color: #112240;
     padding: 9.5% 5% 5% 5%;
     width: 80%;
-    height: 100%;
+    height: 90%;
+    border-radius: 30px;
+
+    // NOTEBOOK    
+    @media (max-width: 1280px) and (max-height: 720px) {
+        height: 95%;
+    }
 `;
 
 export const CardsContainer = styled(motion.div)`

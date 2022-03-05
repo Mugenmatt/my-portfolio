@@ -18,8 +18,6 @@ export const MenuNameBox = styled(motion.div)`
     height: 100vh;
     width: 45%;
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
     flex-direction: column;
 `;
 
